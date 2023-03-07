@@ -2,6 +2,11 @@ const express = require("express");
 const mongoose = require("mongoose");
 const bodyParser = require("body-parser");
 
+
+// To run the project please run the follwing commands
+// ************* npm install *********
+// ************ node index.js ********
+
 const routes= require("./route");
 
 // Server is running on port 8000
