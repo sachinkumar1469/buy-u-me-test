@@ -7,6 +7,11 @@ const bodyParser = require("body-parser");
 // ************* npm install *********
 // ************ node index.js ********
 
+// This project expects that ten products are already present in the database
+// There is no route to create or add a new project
+// We can update the existing products by sending post request on localhost:8000 with the 
+// products array as mentioned in the question
+
 const routes= require("./route");
 
 // Server is running on port 8000
